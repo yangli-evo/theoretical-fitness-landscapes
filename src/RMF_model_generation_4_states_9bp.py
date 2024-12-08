@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import numpy as np
 import numpy.random as nrand
 import matplotlib.pyplot as plt
@@ -12,9 +6,6 @@ import itertools
 import copy
 import pickle
 import multiprocessing
-
-
-# In[4]:
 
 
 # RMF landscape parameters -----------------------------------------
@@ -29,8 +20,6 @@ gt_lst = np.array(list(map(list, itertools.product([0, 1, 2, 3], repeat=N))))
 
 print(gt_lst)
 print(len(gt_lst))
-# In[5]:
-
 
 # '''
 # Create Polynomial fitness landscape
@@ -70,22 +59,3 @@ for std in [10/n for n in range(1,21)]: # std is sampled from 0.5 to 10
         output.write('\t'.join(output_list)+'\n')
     output.close()
 
-
-
-
-'''
-    if len(RMF_landscape_list[1]) <10:
-        RMF_landscape_list[1].append(fitness_landscape)
-    else:
-        RMF_landscape_list[1+1].append(fitness_landscape)
-
-
-# In[7]:
-
-# print(RMF_landscape_list)
-# print(RMF_landscape_list[1])
-print(RMF_landscape_list[2])
-
-with open(f'RMF_{N}_landscape_list_100X10.pkl','wb') as f:
-    pickle.dump(RMF_landscape_list,f)
-'''
