@@ -1,7 +1,5 @@
-# theoretical-fitness-landscapes
-Code and tools to generate and analyze theoretical fitness landscapes (NK model, House of Cards model, Rough Mountain Fuji model).
-
 # Theoretical Fitness Landscapes
+Code and tools to generate and analyze theoretical fitness landscapes (NK model, House of Cards model, Rough Mountain Fuji model).
 
 This repository provides Python code to generate and analyze theoretical fitness landscapes, including:
 - **NK Model**: Generates landscapes with tunable ruggedness using parameter K.
