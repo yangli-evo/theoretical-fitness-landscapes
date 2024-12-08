@@ -40,5 +40,5 @@ By defining fitness landscapes based on DNA sequences, this repository enables t
 ## **Getting Started**  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/theoretical-fitness-landscapes.git
+   git clone https://github.com/yangli-evo/theoretical-fitness-landscapes.git
    cd theoretical-fitness-landscapes
