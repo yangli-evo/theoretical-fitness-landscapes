@@ -5,13 +5,13 @@ import itertools
 import pandas as pd
 
 bases = ['A', 'T', 'C', 'G']
-sequences = [''.join(p) for p in itertools.product(bases, repeat=10)]
+sequences = [''.join(p) for p in itertools.product(bases, repeat=9)]
 print(len(sequences))
 
-output=open('seq_10bp_Glu_adhere.txt', 'w')
+output=open('9bp_ATCG.txt', 'w')
 hand_name=['seq_info', 'fitness']
 
-df1=pd.read_table('seq_10bp_added_HeadName_Glu.txt', sep=',')
+df1=pd.read_table('9bp_ATCG.txt', sep=',')
 value_list=df1['TPU_expressions'].tolist()
 
 
