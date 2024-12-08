@@ -21,6 +21,3 @@ for seq in sequences:
     output.write(seq+'\t'+str(random_number)+'\n')
     value_list.remove(random_number)
 output.close()
-''''''
-
-
