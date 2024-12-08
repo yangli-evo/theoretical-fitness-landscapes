@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import numpy.random as nrand
 import matplotlib.pyplot as plt
@@ -12,9 +6,6 @@ import itertools
 import copy
 import pickle
 import multiprocessing
-
-
-# In[6]:
 
 
 # *** GENERATING INTERACTION MATRICES ***************************************
@@ -73,17 +64,10 @@ def normalize(array):
     return (array - MIN)/(MAX - MIN)
 
 
-# In[7]:
-
-
 # NK landscape parameters -----------------------------------------
 # Change parameters to get fitness landscape of different variable site.
 
 N = 9  # number of variable site
-
-
-# In[43]:
-
 
 # Create NK fitness landscape
 Power_key = np.power(4, np.arange(N - 1, -1, -1))
@@ -96,9 +80,6 @@ NK_land = np.random.rand(4**N, N)
 
 # Calculate fitness and combine that to FL
 FL = comb_and_values(NK_land, Power_key, Int_matrix)
-
-
-# In[42]:
 
 output=open('NK_model_9bp_K0.txt', 'w')
 hand_list=['seq_info', 'fitness']
