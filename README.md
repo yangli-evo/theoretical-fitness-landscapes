@@ -21,7 +21,7 @@ The repository includes implementations of the following models:
 ### **3. Rough Mountain Fuji (RMF) Model**  
 - Combines a smooth fitness gradient (akin to a fitness slope) with random noise to simulate rugged landscapes with a global optimum.  
 - Configured to simulate DNA sequences with **9bp**, where each position can independently evolve to maximize overall fitness.  
-- The ruggedness of the landscape is controlled by the standard deviation (\( \sigma \)) of the added noise.  
+- The ruggedness of the landscape is controlled by the standard deviation (\( σ \)) of the added noise.  
 ---
 
 ## **Focus on DNA Sequence Simulation**  
