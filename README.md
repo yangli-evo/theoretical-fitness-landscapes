@@ -11,7 +11,7 @@ This repository provides Python code to simulate and analyze theoretical fitness
 <p align="center">
   <i>A landscape diagram illustrating the adaptive walk</i>
 </p>
----
+
 
 ## **Key Features**  
 The repository includes implementations of the following models:  
