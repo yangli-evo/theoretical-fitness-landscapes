@@ -5,7 +5,7 @@ This repository provides Python code to simulate and analyze theoretical fitness
 
 ## **Fitness Landscape Diagram**  
 
-![Landscape](images/MBE2025.png)  
+![Landscape](3D/MBE2025.png)  
 *A landscape diagram illustrating the adaptive walk*
 ---
 
