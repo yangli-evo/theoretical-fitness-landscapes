@@ -1,4 +1,5 @@
-# **Theoretical Fitness Landscapes**  
+<h1 align="center">Theoretical Fitness Landscapes</h1>
+
 Code and tools to generate and analyze theoretical fitness landscapes (NK model, House of Cards model, Rough Mountain Fuji model).  
 
 This repository provides Python code to simulate and analyze theoretical fitness landscapes with a focus on **DNA sequence evolution**. The models are designed to study the adaptive processes and accessibility of high-fitness peaks in complex landscapes.  
