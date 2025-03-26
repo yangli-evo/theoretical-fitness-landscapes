@@ -36,6 +36,13 @@ By defining fitness landscapes based on DNA sequences, this repository enables t
 
 ---
 
+## **Contact**  
+For any issues or questions, please feel free to contact me via email: [yangli-evo@gmail.com](mailto:yangli-evo@gmail.com).
+
+If you find this repository useful, please cite:  
+Li, Y., & Zhang, J. (2025). On the probability of reaching high peaks in fitness landscapes by adaptive walks. *Molecular Biology and Evolution*, msaf066. [https://doi.org/10.1093/molbev/msaf066](https://doi.org/10.1093/molbev/msaf066).
+
+
 ## **Getting Started**  
 1. Clone the repository:  
    ```bash
