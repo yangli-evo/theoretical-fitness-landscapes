@@ -5,8 +5,8 @@ This repository provides Python code to simulate and analyze theoretical fitness
 
 ## **Fitness Landscape Diagram**  
 
-![Landscape](/yangli-evo.github.io/images/MBE2025.png)  
-*Figure: A landscape diagram illustrating the fitness landscape model.*
+![Landscape](/images/MBE2025.png)  
+*A landscape diagram illustrating the adaptive walk*
 ---
 
 ## **Key Features**  
