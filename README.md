@@ -52,7 +52,7 @@ By defining fitness landscapes based on DNA sequences, this repository enables t
    cd theoretical-fitness-landscapes
 
 ## 📌 Contact & Citation
-- **For any questions, please email:** yangli-evo@gmail.com  
+- **For any questions, please email:** yangli.evo@gmail.com  
 - **If you find this method useful, please cite:**  
 **Li, Yang., & Zhang, Jianzhi. (2025).**  
 *On the probability of reaching high peaks in fitness landscapes by adaptive walks.*  
